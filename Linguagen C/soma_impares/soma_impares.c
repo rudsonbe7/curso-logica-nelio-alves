@@ -1,6 +1,6 @@
-#include<stdio.h>
+#include <stdio.h>
 
-    int main(){
+    int main() {
 
     int i, x, y, soma, troca;
 
@@ -8,7 +8,7 @@
     scanf("%d", &x);
     scanf("%d", &y);
 
-    if (x > y){
+    if (x > y) {
            troca = x;
            x = y;
            y = troca;
@@ -16,12 +16,11 @@
 
     soma = 0;
 
-    for (i = x + 1; i < y; i++){
-        if (i % 2 != 0){
+    for (i = x + 1; i < y; i++) {
+        if (i % 2 != 0) {
            soma = soma + i;
            }
     }
-
 
     printf("SOMA DOS IMPARES = %d", soma);
 
