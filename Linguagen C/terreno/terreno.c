@@ -1,6 +1,6 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main (){
+int main () {
 
     double largura, comprimento, m_quadrado, area, preco;
 
@@ -19,4 +19,3 @@ int main (){
 
     return 0;
 }
-
