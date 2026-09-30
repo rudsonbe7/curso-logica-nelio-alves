@@ -1,17 +1,16 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main ()
-{
+int main () {
 
     int hora;
 
     printf("Qual o horario? ");
     scanf("%d", &hora);
 
-    if (hora < 12){
+    if (hora < 12) {
     printf("Bom dia!");
     }
-        else{
+        else {
         printf("Boa tarde!");
         }
     return 0;
