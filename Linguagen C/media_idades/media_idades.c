@@ -1,19 +1,19 @@
-#include<stdio.h>
+#include <stdio.h>
 
-    int main(){
+    int main() {
 
     int idade, cont, total;
     double media;
 
     printf("Digite as idades:\n");
     scanf("%d", &idade);
-    if(idade < 0){
+    if (idade < 0) {
         printf("IMPOSSIVEL CALCULAR");
     }
-        else{
+        else {
     cont = 0;
     total = 0;
-    while(idade >= 0){
+    while (idade >= 0) {
         cont = cont + 1;
         total = total + idade;
         scanf("%d", &idade);
