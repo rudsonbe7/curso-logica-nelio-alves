@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
     int main() {
 
@@ -12,7 +12,7 @@
     double mat[M][N];
     double vet[M];
 
-    for (i = 0; i < M; i++){
+    for (i = 0; i < M; i++) {
         printf("Digite os elementos da %da. linha:\n", i+1);
         for (j = 0; j < N; j++) {
             scanf("%lf", &mat[i][j]);
@@ -20,16 +20,15 @@
     }
 
     printf("VETOR GERADO:\n");
-    for (i = 0; i < M; i++){
+    for (i = 0; i < M; i++) {
             vet[i] = 0.0;
             for (j = 0; j < N; j++) {
                 vet[i] = vet[i] + mat[i][j];
             }
     }
 
-    for((i = 0; i < M; i++){
+    for ((i = 0; i < M; i++) {
         printf("%.1lf\n", vet[i]);
     }
 
     return 0;
-
