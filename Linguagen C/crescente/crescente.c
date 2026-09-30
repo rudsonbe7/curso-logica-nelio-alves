@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
     int main() {
 
@@ -7,11 +7,11 @@
     printf("Digite dois numeros: \n");
     scanf("%d", &x);
     scanf("%d", &y);
-    while(x != y) {
+    while (x != y) {
     if (x > y) {
         printf("DECRESCENTE!\n");
         }
-    else{
+    else {
         printf("CRESCENTE!\n");
         }
     printf("Digite outros dois numeros:\n");
@@ -20,4 +20,3 @@
     }
     return 0;
     }
-
