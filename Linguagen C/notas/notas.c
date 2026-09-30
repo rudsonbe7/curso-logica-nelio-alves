@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
     int main() {
 
@@ -14,9 +14,9 @@
     if (notaFinal >= 60.0) {
         printf("NOTA FINAL = %.1lf", notaFinal);
     }
-    else{
-    printf("NOTA FINAL = %.1lf\nREPROVADO", notaFinal);}
-
+    else {
+    printf("NOTA FINAL = %.1lf\nREPROVADO", notaFinal);
+    }
 
     return 0;
     }
