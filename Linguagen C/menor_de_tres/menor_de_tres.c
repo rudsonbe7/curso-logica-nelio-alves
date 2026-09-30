@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
     int main() {
 
@@ -11,13 +11,13 @@
     printf("Terceiro valor: ");
     scanf("%d", &valor3);
 
-    if(valor1 <= valor2 && valor1 <= valor3){
+    if (valor1 <= valor2 && valor1 <= valor3) {
         printf("MENOR = %d", valor1);
     }
-    else if(valor2 <= valor3 && valor2 <= valor1){
+    else if (valor2 <= valor3 && valor2 <= valor1) {
         printf("MENOR = %d", valor2);
     }
-    else if(valor3 <= valor2 && valor3 <= valor1){
+    else if (valor3 <= valor2 && valor3 <= valor1) {
         printf("MENOR = %d", valor3);
     }
 
