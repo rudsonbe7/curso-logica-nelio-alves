@@ -9,6 +9,7 @@ void conversao_real(double real)
 }
 
 int main () {
+    
     double real, dollar;
 
     printf("Quantos reais quer converter? ");
