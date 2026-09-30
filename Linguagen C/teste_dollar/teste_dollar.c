@@ -1,5 +1,5 @@
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
 
 void conversao_real(double real);
 void conversao_real(double real)
@@ -8,8 +8,7 @@ void conversao_real(double real)
     printf("%.2lf reais e igual a %.2lf dolares\n\n", real, dollar);
 }
 
-int main ()
-{
+int main () {
     double real, dollar;
 
     printf("Quantos reais quer converter? ");
