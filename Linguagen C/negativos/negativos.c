@@ -1,6 +1,6 @@
-#include<stdio.h>
+#include <stdio.h>
 
-    int main(){
+    int main() {
 
     int N, i;
 
@@ -17,7 +17,7 @@
     printf("NUMEROS NEGATIVOS:\n");
 
     for (i = 0; i < N; i++) {
-        if (vet[i] < 0){
+        if (vet[i] < 0) {
             printf("%d\n", vet[i]);
         }
     }
